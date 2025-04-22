@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 
   ssr: false,
   app: {
-    baseURL: "/aero-expo/", // 👈 this should match your repo name
+    baseURL: "/aero-expo", // 👈 this should match your repo name
   },
 
   modules: [

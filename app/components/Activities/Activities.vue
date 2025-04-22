@@ -34,61 +34,61 @@ const eventDetails = {
       title: "🚁 Exposition d'Aéronefs",
       description:
         "Découvrez une large gamme d'appareils, des avions aux hélicoptères en passant par les drones, militaires et civils.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "✈️ Baptême de l'Air",
       description:
         "Profitez d'une expérience unique en montant à bord d'un avion ou d'un hélicoptère pour une vue spectaculaire du ciel.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🪂 Saut en Tandem",
       description:
         "Vivez une montée d'adrénaline en effectuant un saut en parachute en binôme avec des professionnels du domaine.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🛩️ Démonstration Aérienne",
       description:
         "Assistez à des démonstrations spectaculaires réalisées par les pilotes d'élite de l'Armée de l'Air Malagasy.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🎪 Stands d'Exposition",
       description:
         "Visitez les espaces dédiés aux centres de formation, compagnies aériennes, entreprises aéronautiques, ainsi qu’aux partenaires touristiques et économiques.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🎶 Animations Musicales et Culturelles",
       description:
         "Profitez de spectacles musicaux en live, de performances traditionnelles et d’animations tout au long de l’événement.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🎤 Conférences Thématiques",
       description:
         "Assistez à des conférences passionnantes animées par des experts et professionnels du secteur aéronautique.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "👨‍✈️ Rencontre avec les Pilotes",
       description:
         "Échangez avec les pilotes expérimentés et découvrez leurs parcours, leurs missions et leur passion pour l’aviation.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🛸 Démonstrations de Drones",
       description:
         "Assistez à des démonstrations de drones de dernière génération avec des vols interactifs et des spectacles aériens.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🎈 Aire de Jeux pour Enfants",
       description:
         "Une zone de jeux fun et sécurisée, pleine d'activités pour divertir les plus jeunes.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
   ],
   en: [
@@ -96,61 +96,61 @@ const eventDetails = {
       title: "🚁 Aircraft Exhibition",
       description:
         "Discover a wide range of aircraft on display, including planes, helicopters, and drones, both military and civilian.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "✈️ Discovery Flights",
       description:
         "Enjoy a once-in-a-lifetime experience aboard an airplane or helicopter and see the world from above.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🪂 Tandem Skydiving",
       description:
         "Take the leap with a professional in a thrilling tandem parachute jump — adrenaline guaranteed!",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🛩️ Air Show",
       description:
         "Be amazed by high-energy aerial demonstrations performed by the elite pilots of the Malagasy Air Force.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🎪 Exhibition Stands",
       description:
         "Visit booths featuring training centers, airlines, aviation companies, tourism operators, and economic development partners.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🎶 Cultural & Musical Performances",
       description:
         "Enjoy live music, traditional performances, and entertainment throughout the event.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🎤 Thematic Conferences",
       description:
         "Attend insightful talks and panels led by industry experts and aviation professionals.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "👨‍✈️ Meet the Pilots",
       description:
         "Exchange with experienced aviators and military personnel to learn about their careers and missions.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🛸 Drone Demonstrations",
       description:
         "Witness cutting-edge drone technology in action through interactive demos and flight showcases.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
     {
       title: "🎈 Kids’ Zone",
       description:
         "A fun and safe area full of games and activities designed just for children.",
-      img: `${base}airshow.jpg`,
+      img: `${base}/airshow.jpg`,
     },
   ],
 };

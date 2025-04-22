@@ -22,15 +22,15 @@
 const base = useRuntimeConfig().app.baseURL;
 
 const exhibitorLogos = [
-  { src: `${base}exhibitors/1.png`, alt: "Air Madagascar" },
-  { src: `${base}exhibitors/2.png`, alt: "Thales Group" },
-  { src: `${base}exhibitors/3.png`, alt: "Dassault Rafale" },
-  { src: `${base}exhibitors/4.png`, alt: "Boeing" },
-  { src: `${base}exhibitors/5.png`, alt: "Airbus" },
-  { src: `${base}exhibitors/2.png`, alt: "Thales Group" },
-  { src: `${base}exhibitors/3.png`, alt: "Dassault Rafale" },
-  { src: `${base}exhibitors/4.png`, alt: "Boeing" },
-  { src: `${base}exhibitors/5.png`, alt: "Airbus" },
+  { src: `${base}/exhibitors/1.png`, alt: "Air Madagascar" },
+  { src: `${base}/exhibitors/2.png`, alt: "Thales Group" },
+  { src: `${base}/exhibitors/3.png`, alt: "Dassault Rafale" },
+  { src: `${base}/exhibitors/4.png`, alt: "Boeing" },
+  { src: `${base}/exhibitors/5.png`, alt: "Airbus" },
+  { src: `${base}/exhibitors/2.png`, alt: "Thales Group" },
+  { src: `${base}/exhibitors/3.png`, alt: "Dassault Rafale" },
+  { src: `${base}/exhibitors/4.png`, alt: "Boeing" },
+  { src: `${base}/exhibitors/5.png`, alt: "Airbus" },
 ];
 </script>
 
