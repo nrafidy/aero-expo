@@ -2,20 +2,25 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: [
-    '@nuxt/ui',
-    '@nuxt/eslint',
-    '@nuxt/image',
-    '@nuxt/icon',
-    '@nuxt/fonts',
-    '@nuxt/content'
-  ],
-
-  css: ['~/assets/css/main.css'],
-
-  future: {
-    compatibilityVersion: 4
+  ssr: false,
+  app: {
+    baseURL: "/aero-expo/", // 👈 this should match your repo name
   },
 
-  compatibilityDate: '2024-11-27'
-})
+  modules: [
+    "@nuxt/ui",
+    "@nuxt/eslint",
+    "@nuxt/image",
+    "@nuxt/icon",
+    "@nuxt/fonts",
+    "@nuxt/content",
+  ],
+
+  css: ["~/assets/css/main.css"],
+
+  future: {
+    compatibilityVersion: 4,
+  },
+
+  compatibilityDate: "2024-11-27",
+});
