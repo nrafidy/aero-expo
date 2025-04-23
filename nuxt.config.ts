@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   ssr: false,
   app: {
     baseURL: "/aero-expo", // 👈 this should match your repo name
+    head: {
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    },
   },
 
   modules: [
