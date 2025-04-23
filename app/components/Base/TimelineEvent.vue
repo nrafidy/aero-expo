@@ -18,7 +18,11 @@
       </div>
     </div>
     <!-- Conditional text alignment (left or right) -->
-    <div :class="textPositionClass" class="ml-6 md:ml-0 md:flex-1">
+    <div
+      :data-aos="textPosition === 'right' ? 'fade-right' : 'fade-left'"
+      :class="textPositionClass"
+      class="ml-6 md:ml-0 md:flex-1"
+    >
       <h3 class="text-xl font-semibold text-gray-700">{{ title }}</h3>
       <p class="mt-2 text-neutral-600">{{ description }}</p>
     </div>

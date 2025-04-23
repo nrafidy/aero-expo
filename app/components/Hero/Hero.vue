@@ -1,6 +1,7 @@
 <template>
   <header class="relative text-center h-full flex flex-col md:flex-row">
     <div
+      data-aos="fade-up"
       class="z-10 flex flex-col items-start justify-center p-6 md:px-10 space-y-4 md:max-w-2/5 bg-neutral-50 text-primary-950"
     >
       <p class="text-3xl text-start">
@@ -26,8 +27,14 @@
       </video> -->
       <div class="absolute bg-black/60 w-full h-full m-0"></div>
       <div class="relative flex flex-col items-center justify-center space-y-6">
-        <img class="w-4xl" src="/logo.png" alt="aero expo" />
+        <img
+          data-aos="fade-down"
+          class="w-4xl"
+          src="/logo.png"
+          alt="aero expo"
+        />
         <div
+          data-aos="fade-right"
           class="flex flex-col md:flex-row md:items-center lg:items-start space-y-2 items-start space-x-2 font-bold text-white"
         >
           <div class="flex items-center space-x-2">
@@ -47,6 +54,7 @@
           </div>
         </div>
         <UButton
+          data-aos="fade-left"
           icon="famicons:ticket-sharp"
           class="text-lg font-bold lg:w-1/4 h-16 justify-center"
           color="secondary"

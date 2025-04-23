@@ -8,7 +8,7 @@
         Programme
       </h3>
       <div class="flex flex-col lg:flex-row justify-around space-y-12">
-        <div class="flex flex-col items-center space-y-6">
+        <div data-aos="fade-right" class="flex flex-col items-center space-y-6">
           <strong>Samedi 31 Mai</strong>
           <div class="overflow-x-auto my-8">
             <table
@@ -35,7 +35,7 @@
             </table>
           </div>
         </div>
-        <div class="flex flex-col items-center space-y-6">
+        <div data-aos="fade-left" class="flex flex-col items-center space-y-6">
           <strong>Dimanche 01 Juin</strong>
           <div class="overflow-x-auto my-8">
             <table

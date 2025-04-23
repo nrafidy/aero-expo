@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/content",
     "@nuxtjs/i18n",
+    "nuxt-aos",
   ],
 
   i18n: {
@@ -33,6 +34,10 @@ export default defineNuxtConfig({
         emoji: "twemoji:flag-for-flag-united-states",
       },
     ],
+  },
+
+  aos: {
+    duration: 700,
   },
 
   css: ["~/assets/css/main.css"],

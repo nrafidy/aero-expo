@@ -3,10 +3,11 @@
     <h2 class="text-3xl font-bold text-center text-primary-950 mb-18">
       Nos Partenaires et Sponsors
     </h2>
-    <!-- <h2 class="text-3xl font-bold text-center mb-8 text-primary-950">
-      Our Exhibitors
-    </h2> -->
-    <div class="max-w-7xl flex flex-wrap gap-12 justify-center mx-auto">
+
+    <div
+      data-aos="fade-up"
+      class="max-w-7xl flex flex-wrap gap-12 justify-center mx-auto"
+    >
       <img
         v-for="(logo, index) in exhibitorLogos"
         :key="index"
