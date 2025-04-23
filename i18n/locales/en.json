@@ -81,6 +81,8 @@
     "date1": "Saturday May 31st",
     "date2": "Sunday June 01st",
     "schedule": {
+      "time": "Time",
+      "activity": "Activity",
       "saturday": {
         "activity1": "Official opening and arrival of authorities by helicopter",
         "activity2": "Airplane discovery flight raffle draw",

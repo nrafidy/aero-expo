@@ -81,6 +81,8 @@
     "date1": "Samedi 31 Mai",
     "date2": "Dimanche 01 Juin",
     "schedule": {
+      "time": "Heure",
+      "activity": "Activité",
       "saturday": {
         "activity1": "Ouverture officielle et Arrivée des autorités en Hélico",
         "activity2": "Tirage au sort Baptême de l’air Avion",

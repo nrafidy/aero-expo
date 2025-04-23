@@ -1,24 +1,28 @@
 <template>
   <section id="good-to-know" class="bg-primary-950 text-neutral-50 py-12">
     <div class="mx-auto max-w-7xl">
-      <h2 class="text-3xl font-semibold mb-8 text-center">Bon à savoir</h2>
+      <h2 class="text-3xl font-semibold mb-8 text-center">
+        {{ $t("good-to-know.title") }}
+      </h2>
       <h3
         class="text-2xl font-semibold mb-4 text-center md:text-left md:ml-28 lg:ml-12"
       >
-        Programme
+        {{ $t("good-to-know.program") }}
       </h3>
       <div class="flex flex-col lg:flex-row justify-around space-y-12">
         <div data-aos="fade-right" class="flex flex-col items-center space-y-6">
-          <strong>Samedi 31 Mai</strong>
+          <strong>{{ $t("good-to-know.date1") }}</strong>
           <div class="overflow-x-auto my-8">
             <table
               class="min-w-full divide-y divide-primary-200 border-b border-primary-200"
             >
               <thead class="bg-primary-900">
                 <tr>
-                  <th class="px-6 py-3 text-left text-sm font-medium">Heure</th>
                   <th class="px-6 py-3 text-left text-sm font-medium">
-                    Activité
+                    {{ $t("good-to-know.schedule.time") }}
+                  </th>
+                  <th class="px-6 py-3 text-left text-sm font-medium">
+                    {{ $t("good-to-know.schedule.activity") }}
                   </th>
                 </tr>
               </thead>
@@ -36,16 +40,18 @@
           </div>
         </div>
         <div data-aos="fade-left" class="flex flex-col items-center space-y-6">
-          <strong>Dimanche 01 Juin</strong>
+          <strong>{{ $t("good-to-know.date2") }}</strong>
           <div class="overflow-x-auto my-8">
             <table
               class="min-w-full divide-y divide-primary-200 border-b border-primary-200"
             >
               <thead class="bg-primary-900">
                 <tr>
-                  <th class="px-6 py-3 text-left text-sm font-medium">Heure</th>
                   <th class="px-6 py-3 text-left text-sm font-medium">
-                    Activité
+                    {{ $t("good-to-know.schedule.time") }}
+                  </th>
+                  <th class="px-6 py-3 text-left text-sm font-medium">
+                    {{ $t("good-to-know.schedule.activity") }}
                   </th>
                 </tr>
               </thead>

@@ -1,7 +1,7 @@
 <template>
   <section id="partners-and-sponsors" class="py-12 bg-neutral-50">
     <h2 class="text-3xl font-bold text-center text-primary-950 mb-18">
-      Nos Partenaires et Sponsors
+      {{ $t("partners.title") }}
     </h2>
 
     <div
