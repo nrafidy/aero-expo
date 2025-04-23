@@ -14,7 +14,26 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxt/fonts",
     "@nuxt/content",
+    "@nuxtjs/i18n",
   ],
+
+  i18n: {
+    defaultLocale: "fr",
+    locales: [
+      {
+        code: "fr",
+        name: "French",
+        file: "fr.json",
+        emoji: "twemoji:flag-france",
+      },
+      {
+        code: "en",
+        name: "English",
+        file: "en.json",
+        emoji: "twemoji:flag-for-flag-united-states",
+      },
+    ],
+  },
 
   css: ["~/assets/css/main.css"],
 

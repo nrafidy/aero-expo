@@ -1,7 +1,7 @@
 <template>
   <section id="exhibitors" class="py-12 px-6 bg-neutral-50">
     <h2 class="text-3xl font-bold text-center text-primary-950 mb-18">
-      Nos Exposants
+      {{ $t("exhibitors.title") }}
     </h2>
     <!-- <h2 class="text-3xl font-bold text-center mb-8 text-primary-950">
       Our Exhibitors

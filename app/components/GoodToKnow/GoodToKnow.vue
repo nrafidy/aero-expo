@@ -68,90 +68,76 @@
 </template>
 
 <script lang="ts" setup>
+const { t: $t } = useI18n();
+
 const saturday = ref([
-  {
-    time: "09:30",
-    activity: "Ouverture officielle et Arrivée des autorités en Hélico",
-  },
-  {
-    time: "10:30",
-    activity: "Tirage au sort Baptême de l’air Avion",
-  },
+  { time: "09:30", activity: $t("good-to-know.schedule.saturday.activity1") },
+  { time: "10:30", activity: $t("good-to-know.schedule.saturday.activity2") },
   {
     time: "11:00 - 11:20",
-    activity: "Baptême de l’air Avion",
+    activity: $t("good-to-know.schedule.saturday.activity3"),
   },
   {
     time: "11:30 - 12:00",
-    activity: "Initiation Roulage sur Tetras",
+    activity: $t("good-to-know.schedule.saturday.activity4"),
   },
   {
     time: "12:00 - 13:00",
-    activity: "Prise de parole par stand et animation",
+    activity: $t("good-to-know.schedule.saturday.activity5"),
   },
   {
     time: "13:00 - 13:45",
-    activity: "Conférence",
+    activity: $t("good-to-know.schedule.saturday.activity6"),
   },
   {
     time: "13:45 - 14:00",
-    activity: "Tirage au sort Baptême de l’air Hélico",
+    activity: $t("good-to-know.schedule.saturday.activity7"),
   },
   {
     time: "14:15 - 14:30",
-    activity: "Baptême de l’air Hélico",
+    activity: $t("good-to-know.schedule.saturday.activity8"),
   },
   {
     time: "15:00 - 15:30",
-    activity: "Démonstration Drone",
+    activity: $t("good-to-know.schedule.saturday.activity9"),
   },
   {
     time: "15:30 - 17:00",
-    activity: "Animation, concert, Tirage au sort pour saut tandem",
+    activity: $t("good-to-know.schedule.saturday.activity10"),
   },
 ]);
 
 const sunday = ref([
-  {
-    time: "09:00",
-    activity: "Ouverture",
-  },
-  {
-    time: "09:30",
-    activity: "Saut tandem",
-  },
-  {
-    time: "10:00",
-    activity: "Conférence, Concours simulateur",
-  },
+  { time: "09:00", activity: $t("good-to-know.schedule.sunday.activity1") },
+  { time: "09:30", activity: $t("good-to-know.schedule.sunday.activity2") },
+  { time: "10:00", activity: $t("good-to-know.schedule.sunday.activity3") },
   {
     time: "11:00 - 12:00",
-    activity: "Défilé aérien, Démonstration Dynamique",
+    activity: $t("good-to-know.schedule.sunday.activity4"),
   },
   {
     time: "12:15 - 13:00",
-    activity: "Prise de parole par stand et animation",
+    activity: $t("good-to-know.schedule.sunday.activity5"),
   },
   {
     time: "13:15 - 13:30",
-    activity: "Baptême de l’air, Avion",
+    activity: $t("good-to-know.schedule.sunday.activity6"),
   },
   {
     time: "13:45 - 14:00",
-    activity: "Baptême de l’air, Hélico",
+    activity: $t("good-to-know.schedule.sunday.activity7"),
   },
   {
     time: "14:15 - 14:45",
-    activity: "Saut tandem, ",
+    activity: $t("good-to-know.schedule.sunday.activity8"),
   },
   {
     time: "15:00 - 15:15",
-    activity: "Baptême de l’air",
+    activity: $t("good-to-know.schedule.sunday.activity9"),
   },
   {
     time: "15:30 - 17:00",
-    activity:
-      "Animation, Concert, Tirage au sort des lots avec les partenaires",
+    activity: $t("good-to-know.schedule.sunday.activity10"),
   },
 ]);
 </script>

@@ -4,26 +4,12 @@
       class="z-10 flex flex-col items-start justify-center p-6 md:px-10 space-y-4 md:max-w-2/5 bg-neutral-50 text-primary-950"
     >
       <p class="text-3xl text-start">
-        Vivez toute l’émotion de l’aéronautique.
+        {{ $t("hero.title") }}
       </p>
       <p class="text-7xl font-pt font-bold text-start">AERO - EXPO 2025</p>
       <p class="text-justify">
-        Le plus grand rendez-vous aéronautique de l’année à Madagascar !
-        Rejoignez-nous pour célébrer les 65 ans de l’Armée Malagasy à travers
-        deux journées inoubliables placées sous le signe du vol, de l’innovation
-        et de l’excellence. Rencontrez des pilotes, découvrez des aéronefs
-        fascinants et partagez votre passion avec des visiteurs venus des quatre
-        coins du pays… et d’ailleurs. Une expérience à ne surtout pas manquer !
+        {{ $t("hero.description") }}
       </p>
-      <!-- <p class="text-3xl text-start">Experience the thrill of aviation.</p>
-      <p class="text-7xl font-pt font-bold text-start">AERO - EXPO 2025</p>
-      <p class="text-justify">
-        Madagascar’s biggest aviation event is here! Celebrate the 65th
-        anniversary of the Malagasy Armed Forces with two unforgettable days of
-        flight, innovation, and aeronautical excellence. Meet pilots, explore
-        cutting-edge aircraft, and connect with aviation lovers from across the
-        country — and beyond. Don’t miss this high-flying experience!
-      </p> -->
     </div>
     <div
       class="relative w-full h-full flex flex-col items-center justify-center space-y-6 bg-hero p-6 md:px-10"
@@ -49,7 +35,7 @@
               name="material-symbols:calendar-clock-sharp"
               class="size-8"
             />
-            <span>31 Mai - 01 Juin 2025</span>
+            <span>{{ $t("hero.date") }}</span>
           </div>
           <span class="hidden md:block">|</span>
           <div class="flex items-center space-x-2">
@@ -57,7 +43,7 @@
               name="material-symbols:globe-location-pin-sharp"
               class="size-8"
             />
-            <span>Escadron Helicoptère Ivato</span>
+            <span>{{ $t("hero.location") }}</span>
           </div>
         </div>
         <UButton
@@ -66,7 +52,7 @@
           color="secondary"
           variant="solid"
         >
-          GET TICKETS
+          {{ $t("hero.button") }}
         </UButton>
       </div>
     </div>

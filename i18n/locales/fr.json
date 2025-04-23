@@ -1,0 +1,117 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "A propos",
+    "activities": "Activités",
+    "exhibitors": "Exposants",
+    "good-to-know": "Bon à savoir",
+    "partners": "Partenaires et sponsors",
+    "contact": "Contact",
+    "get-tickets": "Billeterie"
+  },
+  "hero": {
+    "title": "Vivez toute l’émotion de l’aéronautique.",
+    "description": "Le plus grand rendez-vous aéronautique de l’année à Madagascar ! Rejoignez-nous pour célébrer les 65 ans de l’Armée Malagasy à travers deux journées inoubliables placées sous le signe du vol, de l’innovation et de l’excellence. Rencontrez des pilotes, découvrez des aéronefs fascinants et partagez votre passion avec des visiteurs venus des quatre coins du pays… et d’ailleurs. Une expérience à ne surtout pas manquer !",
+    "date": "31 Mai - 01 Juin 2025",
+    "location": "Escadron Helicoptère Ivato",
+    "button": "Acheter des billets"
+  },
+  "about": {
+    "title1": "C'est quoi Aero-Expo ?",
+    "description1_p1": "est un grand salon aéronautique organisé par l’Armée de l’Air Malagasy, les 31 Mai et 1er Juin 2025, à l’Escadron Hélicoptère d’Ivato. Cet événement s’inscrit dans le cadre de la célébration du 65ᵉ anniversaire de l’Armée Malagasy et vise à mettre en valeur le monde de l’aéronautique à Madagascar. Il rassemble le public autour de démonstrations aériennes, d’expositions militaires et civils, de présentations de métiers, de technologies innovantes et d’échanges avec des professionnels du secteur.",
+    "description1_p2": "Ouvert à tous, Aéro - Expo 2025 est bien plus qu’un simple salon : c’est un moment de découverte, de fierté nationale et d’éveil des vocations, où l’excellence et le savoir-faire aéronautique malagasy sont à l’honneur.",
+    "title2": "Nos objectifs",
+    "description2_t1": "Valoriser l’héritage aéronautique malagasy :",
+    "description2_p1": "Mettre en lumière les réalisations de l’Armée de l’Air et de l’aviation civile, ainsi que leur rôle clé dans la défense nationale, le développement économique et le transport aérien.",
+    "description2_t2": "Favoriser la coopération internationale :",
+    "description2_p2": "Attirer des partenaires étrangers et renforcer les liens avec d’autres forces aériennes et institutions civiles à travers le monde.",
+    "description2_t3": "Sensibiliser et inspirer le grand public :",
+    "description2_p3": "Faire découvrir les métiers de l’aéronautique, susciter des vocations et éveiller la curiosité des jeunes générations.",
+    "description2_t4": "Dynamiser l’économie locale :",
+    "description2_p4": "Stimuler les secteurs de l’hôtellerie, du transport et des services grâce à l’affluence nationale et internationale attendue."
+  },
+  "activities": {
+    "title1": "🚁 Exposition d'Aéronefs",
+    "description1": "Découvrez une large gamme d'appareils, des avions aux hélicoptères en passant par les drones, militaires et civils.",
+    "img1": "airshow.jpg",
+
+    "title2": "✈️ Baptême de l'Air",
+    "description2": "Profitez d'une expérience unique en montant à bord d'un avion ou d'un hélicoptère pour une vue spectaculaire du ciel.",
+    "img2": "airshow.jpg",
+
+    "title3": "🪂 Saut en Tandem",
+    "description3": "Vivez une montée d'adrénaline en effectuant un saut en parachute en binôme avec des professionnels du domaine.",
+    "img3": "airshow.jpg",
+
+    "title4": "🛩️ Démonstration Aérienne",
+    "description4": "Assistez à des démonstrations spectaculaires réalisées par les pilotes d'élite de l’Armée de l’Air Malagasy.",
+    "img4": "airshow.jpg",
+
+    "title5": "🎪 Stands d'Exposition",
+    "description5": "Visitez les espaces dédiés aux centres de formation, compagnies aériennes, entreprises aéronautiques, ainsi qu’aux partenaires touristiques et économiques.",
+    "img5": "airshow.jpg",
+
+    "title6": "🎶 Animations Musicales et Culturelles",
+    "description6": "Profitez de spectacles musicaux en live, de performances traditionnelles et d’animations tout au long de l’événement.",
+    "img6": "airshow.jpg",
+
+    "title7": "🎤 Conférences Thématiques",
+    "description7": "Assistez à des conférences passionnantes animées par des experts et professionnels du secteur aéronautique.",
+    "img7": "airshow.jpg",
+
+    "title8": "👨‍✈️ Rencontre avec les Pilotes",
+    "description8": "Échangez avec les pilotes expérimentés et découvrez leurs parcours, leurs missions et leur passion pour l’aviation.",
+    "img8": "airshow.jpg",
+
+    "title9": "🛸 Démonstrations de Drones",
+    "description9": "Assistez à des démonstrations de drones de dernière génération avec des vols interactifs et des spectacles aériens.",
+    "img9": "airshow.jpg",
+
+    "title10": "🎈 Aire de Jeux pour Enfants",
+    "description10": "Une zone de jeux fun et sécurisée, pleine d'activités pour divertir les plus jeunes.",
+    "img10": "airshow.jpg"
+  },
+  "exhibitors": {
+    "title": "Les Exposants"
+  },
+  "good-to-know": {
+    "title": "Bon à savoir",
+    "program": "Programme",
+    "date1": "Samedi 31 Mai",
+    "date2": "Dimanche 01 Juin",
+    "schedule": {
+      "saturday": {
+        "activity1": "Ouverture officielle et Arrivée des autorités en Hélico",
+        "activity2": "Tirage au sort Baptême de l’air Avion",
+        "activity3": "Baptême de l’air Avion",
+        "activity4": "Initiation Roulage sur Tetras",
+        "activity5": "Prise de parole par stand et animation",
+        "activity6": "Conférence",
+        "activity7": "Tirage au sort Baptême de l’air Hélico",
+        "activity8": "Baptême de l’air Hélico",
+        "activity9": "Démonstration Drone",
+        "activity10": "Animation, concert, Tirage au sort pour saut tandem"
+      },
+      "sunday": {
+        "activity1": "Ouverture",
+        "activity2": "Saut tandem",
+        "activity3": "Conférence, Concours simulateur",
+        "activity4": "Défilé aérien, Démonstration Dynamique",
+        "activity5": "Prise de parole par stand et animation",
+        "activity6": "Baptême de l’air, Avion",
+        "activity7": "Baptême de l’air, Hélico",
+        "activity8": "Saut tandem",
+        "activity9": "Baptême de l’air",
+        "activity10": "Animation, Concert, Tirage au sort des lots avec les partenaires"
+      }
+    }
+  },
+  "partners": {
+    "title": "Partenaires et sponsors"
+  },
+  "footer": {
+    "slogan": "L'aéronautique à votre portée.",
+    "social-medias": "Nos réseaux sociaux",
+    "copyright": "Tous droits reservés."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "activities": "Activities",
+    "exhibitors": "Exhibitors",
+    "good-to-know": "Good to know",
+    "partners": "Partners and sponsors",
+    "contact": "Contact",
+    "get-tickets": "Get tickets"
+  },
+  "hero": {
+    "title": "Experience the thrill of aviation.",
+    "description": "Madagascar’s biggest aviation event is here! Celebrate the 65th anniversary of the Malagasy Armed Forces with two unforgettable days of flight, innovation, and aeronautical excellence. Meet pilots, explore cutting-edge aircraft, and connect with aviation lovers from across the country — and beyond. Don’t miss this high-flying experience!",
+    "date": "May 31st - June 01st 2025",
+    "location": "Helicopter Squadron Ivato",
+    "button": "Get tickets"
+  },
+  "about": {
+    "title1": "What is Aero-Expo?",
+    "description1_p1": "is a major aviation exhibition organized by the Malagasy Air Force, taking place on May 31 and June 1, 2025, at the Ivato Helicopter Squadron. This event is part of the celebration of the 65th anniversary of the Malagasy Armed Forces and aims to showcase the world of aviation in Madagascar. It brings together the public with aerial demonstrations, military and civilian exhibitions, career presentations, innovative technologies, and exchanges with professionals in the sector.",
+    "description1_p2": "Open to all, Aero-Expo 2025 is much more than just an exhibition: it is a moment of discovery, national pride, and the awakening of vocations, where Malagasy aeronautical excellence and know-how are honored.",
+    "title2": "Our Objectives",
+    "description2_t1": "Highlight Malagasy aeronautical heritage:",
+    "description2_p1": "Showcase the achievements of the Air Force and civil aviation, as well as their key role in national defense, economic development, and air transport.",
+    "description2_t2": "Promote international cooperation:",
+    "description2_p2": "Attract foreign partners and strengthen ties with other air forces and civilian institutions around the world.",
+    "description2_t3": "Raise awareness and inspire the general public:",
+    "description2_p3": "Introduce aeronautical careers, spark vocations, and arouse the curiosity of younger generations.",
+    "description2_t4": "Boost the local economy:",
+    "description2_p4": "Stimulate the hospitality, transport, and service sectors through the expected national and international attendance."
+  },
+  "activities": {
+    "title1": "🚁 Aircraft Exhibition",
+    "description1": "Discover a wide range of aircraft on display, including planes, helicopters, and drones, both military and civilian.",
+    "img1": "airshow.jpg",
+
+    "title2": "✈️ Discovery Flights",
+    "description2": "Enjoy a once-in-a-lifetime experience aboard an airplane or helicopter and see the world from above.",
+    "img2": "airshow.jpg",
+
+    "title3": "🪂 Tandem Skydiving",
+    "description3": "Take the leap with a professional in a thrilling tandem parachute jump — adrenaline guaranteed!",
+    "img3": "airshow.jpg",
+
+    "title4": "🛩️ Air Show",
+    "description4": "Be amazed by high-energy aerial demonstrations performed by the elite pilots of the Malagasy Air Force.",
+    "img4": "airshow.jpg",
+
+    "title5": "🎪 Exhibition Stands",
+    "description5": "Visit booths featuring training centers, airlines, aviation companies, tourism operators, and economic development partners.",
+    "img5": "airshow.jpg",
+
+    "title6": "🎶 Cultural & Musical Performances",
+    "description6": "Enjoy live music, traditional performances, and entertainment throughout the event.",
+    "img6": "airshow.jpg",
+
+    "title7": "🎤 Thematic Conferences",
+    "description7": "Attend insightful talks and panels led by industry experts and aviation professionals.",
+    "img7": "airshow.jpg",
+
+    "title8": "👨‍✈️ Meet the Pilots",
+    "description8": "Exchange with experienced aviators and military personnel to learn about their careers and missions.",
+    "img8": "airshow.jpg",
+
+    "title9": "🛸 Drone Demonstrations",
+    "description9": "Witness cutting-edge drone technology in action through interactive demos and flight showcases.",
+    "img9": "airshow.jpg",
+
+    "title10": "🎈 Kids’ Zone",
+    "description10": "A fun and safe area full of games and activities designed just for children.",
+    "img10": "airshow.jpg"
+  },
+  "exhibitors": {
+    "title": "Exhibitors"
+  },
+  "good-to-know": {
+    "title": "Good to know",
+    "program": "Program",
+    "date1": "Saturday May 31st",
+    "date2": "Sunday June 01st",
+    "schedule": {
+      "saturday": {
+        "activity1": "Official opening and arrival of authorities by helicopter",
+        "activity2": "Airplane discovery flight raffle draw",
+        "activity3": "Airplane discovery flight",
+        "activity4": "Tetras taxiing initiation",
+        "activity5": "Talks at exhibition stands and entertainment",
+        "activity6": "Conference",
+        "activity7": "Helicopter discovery flight raffle draw",
+        "activity8": "Helicopter discovery flight",
+        "activity9": "Drone demonstration",
+        "activity10": "Entertainment, concert, tandem jump raffle draw"
+      },
+      "sunday": {
+        "activity1": "Opening",
+        "activity2": "Tandem jump",
+        "activity3": "Conference, simulator contest",
+        "activity4": "Air parade, dynamic demonstration",
+        "activity5": "Talks at exhibition stands and entertainment",
+        "activity6": "Airplane discovery flight",
+        "activity7": "Helicopter discovery flight",
+        "activity8": "Tandem jump",
+        "activity9": "Discovery flight",
+        "activity10": "Entertainment, concert, prize raffle with partners"
+      }
+    }
+  },
+  "partners": {
+    "title": "Partners and sponsors"
+  },
+  "footer": {
+    "slogan": "Aerospace within your reach.",
+    "social-medias": "Our social media",
+    "copyright": "All rights reserved."
+  }
+}
