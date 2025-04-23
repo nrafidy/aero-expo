@@ -3,7 +3,7 @@
     id="activities"
     class="py-16 text-center mx-auto bg-neutral-50 text-primary-950"
   >
-    <h2 class="text-3xl font-semibold mb-12">À quoi s'attendre</h2>
+    <h2 class="text-3xl font-semibold mb-12">{{ $t("activities.title") }}</h2>
 
     <div class="relative space-y-12">
       <!-- Vertical Line -->
