@@ -5,6 +5,7 @@
     inactive-class="text-primary-200 text-sm hover:text-white"
     active-class="border-secondary-400 border-b-2 text-white"
     :active="active"
+    class="transition-all duration-400 ease-in-out"
   >
     {{ text }}
   </ULink>

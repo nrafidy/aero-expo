@@ -11,7 +11,7 @@
         </div>
 
         <div
-          class="hidden md:flex space-x-6 absolute left-1/2 transform -translate-x-1/2"
+          class="hidden md:flex space-x-6 absolute left-1/2 transform -translate-x-1/2 items-end"
         >
           <template v-for="(item, index) in navItems" :key="index">
             <BaseNavItem
