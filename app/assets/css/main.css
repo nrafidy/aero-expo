@@ -3,8 +3,7 @@
 
 @theme static {
   --font-sans: "Gantari", sans-serif;
-  --font-tangerine: "Tangerine", cursive;
-  --font-volkhov: "Volkhov", serif;
+  --font-atkinson: "Atkinson Hyperlegible Mono", sans-serif;
   --font-pt: "Pt Serif", serif;
 
   --color-green-50: #effdf5;

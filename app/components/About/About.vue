@@ -1,9 +1,9 @@
 <template>
   <section
     id="about"
-    class="max-w-7xl py-16 text-justify mx-auto flex-col space-y-24 p-6"
+    class="py-16 text-justify mx-auto flex-col space-y-24 p-6 text-neutral-50 bg-primary-950"
   >
-    <div class="flex space-x-6 items-center">
+    <div class="flex space-x-6 items-center max-w-7xl mx-auto">
       <div data-aos="fade-right" class="flex-1 space-y-6">
         <h2 class="text-3xl font-semibold">{{ $t("about.title1") }}</h2>
         <div class="md:max-w-2xl space-y-6">
@@ -22,7 +22,7 @@
         <img src="/defile.jpg" alt="Icon" class="h-full object-cover" />
       </div>
     </div>
-    <div class="flex space-x-6 items-center justify-between">
+    <div class="flex space-x-6 items-center justify-between max-w-7xl mx-auto">
       <div
         data-aos="zoom-out-right"
         class="hidden md:block md:w-1/3 bg-neutral-50 p-4"

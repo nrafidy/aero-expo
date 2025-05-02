@@ -1,5 +1,8 @@
 <template>
-  <header class="relative text-center h-full flex flex-col md:flex-row">
+  <header
+    id="#hero"
+    class="relative text-center h-full flex flex-col md:flex-row"
+  >
     <div
       data-aos="fade-up"
       class="z-10 flex flex-col items-start justify-center p-6 md:px-10 space-y-4 md:max-w-2/5 bg-neutral-50 text-primary-950"
@@ -26,7 +29,9 @@
         Your browser does not support the video tag.
       </video> -->
       <div class="absolute bg-black/60 w-full h-full m-0"></div>
-      <div class="relative flex flex-col items-center justify-center space-y-6">
+      <div
+        class="relative flex flex-col items-center justify-center space-y-12"
+      >
         <img
           data-aos="fade-down"
           class="w-4xl"
@@ -53,15 +58,25 @@
             <span>{{ $t("hero.location") }}</span>
           </div>
         </div>
-        <UButton
-          data-aos="fade-left"
-          icon="famicons:ticket-sharp"
-          class="text-lg font-bold lg:w-1/4 h-16 justify-center"
-          color="secondary"
-          variant="solid"
-        >
-          {{ $t("hero.button") }}
-        </UButton>
+        <div class="flex flex-col items-end space-y-2">
+          <UButton
+            data-aos="fade-left"
+            icon="material-symbols:paragliding-rounded"
+            class="text-lg font-bold p-6 h-16 justify-center uppercase"
+            color="secondary"
+            variant="solid"
+            size="xl"
+            @click="$router.push('/#booking')"
+          >
+            {{ $t("hero.button") }}
+          </UButton>
+          <span class="text-neutral-50 italic text-xs text-right">
+            * {{ $t("booking.subtitle") }}
+          </span>
+          <span class="text-neutral-50 italic text-xs text-right">
+            ** {{ $t("hero.nota") }}
+          </span>
+        </div>
       </div>
     </div>
   </header>

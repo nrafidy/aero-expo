@@ -7,7 +7,7 @@ const { locale, locales, setLocale } = useI18n();
     <button v-for="loc in locales" @click="setLocale(loc.code)">
       <UIcon
         :name="loc.emoji"
-        class="size-6"
+        class="size-5"
         :class="loc.code === locale ? '' : 'grayscale'"
       />
     </button>

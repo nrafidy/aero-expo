@@ -7,14 +7,15 @@
     "good-to-know": "Bon à savoir",
     "partners": "Partenaires et sponsors",
     "contact": "Contact",
-    "get-tickets": "Billeterie"
+    "get-tickets": "Je saute !"
   },
   "hero": {
     "title": "Vivez toute l’émotion de l’aéronautique.",
     "description": "Le plus grand rendez-vous aéronautique de l’année à Madagascar ! Rejoignez-nous pour célébrer les 65 ans de l’Armée Malagasy à travers deux journées inoubliables placées sous le signe du vol, de l’innovation et de l’excellence. Rencontrez des pilotes, découvrez des aéronefs fascinants et partagez votre passion avec des visiteurs venus des quatre coins du pays… et d’ailleurs. Une expérience à ne surtout pas manquer !",
     "date": "31 Mai - 01 Juin 2025",
     "location": "Escadron Helicoptère Ivato",
-    "button": "Acheter des billets"
+    "button": "Prenez votre envol – Réservez votre saut dès maintenant !",
+    "nota": "Offre spéciale Aero-Expo 2025"
   },
   "about": {
     "title1": "C'est quoi Aero-Expo ?",
@@ -110,7 +111,34 @@
     }
   },
   "partners": {
-    "title": "Partenaires et sponsors"
+    "title": "Partenaires et sponsors",
+    "institution": "Partenaires Institutionnels",
+    "official": "Sponsors Officiels",
+    "platinum": "Sponsors Platine",
+    "partners": "Partenaires",
+    "drink": "Boisson Officielle"
+  },
+
+  "booking": {
+    "title": "Réduction Exceptionnelle !",
+    "subtitle": "Réservez maintenant et économisez 30% sur votre premier saut",
+    "discount": "Offre Spéciale",
+    "form_title": "Profitez de votre réduction",
+    "name_placeholder": "Nom complet",
+    "email_placeholder": "Adresse email",
+    "phone_placeholder": "Numéro de téléphone",
+    "weight_placeholder": "Poids (kg)",
+    "count_placeholder": "Nombre de personnes",
+    "cta": "Obtenir ma Réduction",
+    "badges": {
+      "verified": "Instructeurs Certifiés",
+      "secure": "Réservation Sécurisée",
+      "rated": "Évaluation 5 Étoiles"
+    },
+    "success_title": "Réservation Enregistrée !",
+    "success_message": "Notre équipe vous contactera sous 24h pour confirmer.",
+    "error_title": "Échec de Réservation",
+    "error_message": "Veuillez réessayer ou nous contacter directement."
   },
   "footer": {
     "slogan": "L'aéronautique à votre portée.",

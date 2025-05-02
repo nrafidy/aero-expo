@@ -2,8 +2,9 @@
   <ULink
     :to="to"
     exact-hash
-    inactive-class="text-neutral"
-    active-class="border-secondary-400 border-b-2"
+    inactive-class="text-primary-200 text-sm hover:text-white"
+    active-class="border-secondary-400 border-b-2 text-white"
+    :active="active"
   >
     {{ text }}
   </ULink>
@@ -18,6 +19,10 @@ const props = defineProps({
   text: {
     type: String,
     required: true,
+  },
+  active: {
+    type: Boolean,
+    default: false,
   },
 });
 </script>

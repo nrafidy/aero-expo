@@ -7,14 +7,15 @@
     "good-to-know": "Good to know",
     "partners": "Partners and sponsors",
     "contact": "Contact",
-    "get-tickets": "Get tickets"
+    "get-tickets": "I'm jumping !"
   },
   "hero": {
     "title": "Experience the thrill of aviation.",
     "description": "Madagascar’s biggest aviation event is here! Celebrate the 65th anniversary of the Malagasy Armed Forces with two unforgettable days of flight, innovation, and aeronautical excellence. Meet pilots, explore cutting-edge aircraft, and connect with aviation lovers from across the country — and beyond. Don’t miss this high-flying experience!",
     "date": "May 31st - June 01st 2025",
     "location": "Helicopter Squadron Ivato",
-    "button": "Get tickets"
+    "button": "Take the Leap – Book Your Skydive Today !",
+    "nota": "Special Aero-Expo 2025 Offer"
   },
   "about": {
     "title1": "What is Aero-Expo?",
@@ -110,7 +111,33 @@
     }
   },
   "partners": {
-    "title": "Partners and sponsors"
+    "title": "Partners and sponsors",
+    "institution": "Institutional Partners",
+    "official": "Official Sponsors",
+    "platinum": "Platinum Sponsors",
+    "partners": "Partners",
+    "drink": "Official Drink"
+  },
+  "booking": {
+    "title": "Limited-Time Price Reduction !",
+    "subtitle": "Book now and save 30% on your first skydiving experience",
+    "discount": "Special Discount",
+    "form_title": "Claim Your Discounted Jump",
+    "name_placeholder": "Full name",
+    "email_placeholder": "Email address",
+    "phone_placeholder": "Phone number",
+    "weight_placeholder": "Weights (kg)",
+    "count_placeholder": "Number of people",
+    "cta": "Get My Discount",
+    "badges": {
+      "verified": "Verified Instructors",
+      "secure": "Secure Booking",
+      "rated": "5-Star Rated"
+    },
+    "success_title": "Booking Received!",
+    "success_message": "Our team will contact you within 24 hours to confirm your jump.",
+    "error_title": "Booking Failed",
+    "error_message": "Please try again or contact us directly."
   },
   "footer": {
     "slogan": "Aerospace within your reach.",

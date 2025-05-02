@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="relative">
+    <HeaderMobile />
     <div class="md:h-screen">
       <Header />
       <Hero />
@@ -7,7 +8,7 @@
     <div class="mx-auto">
       <About />
       <Activities />
-      <Exhibitors />
+      <Skydive />
       <GoodToKnow />
       <Partners />
       <!-- <Contact /> -->
