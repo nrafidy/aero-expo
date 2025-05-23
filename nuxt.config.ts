@@ -3,6 +3,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   ssr: false,
+
+  runtimeConfig: {
+    public: {
+      apiBase: process.env.API_BASE || "http://localhost:3001",
+    },
+  },
+
   app: {
     baseURL: "/aero-expo", // 👈 this should match your repo name
     head: {

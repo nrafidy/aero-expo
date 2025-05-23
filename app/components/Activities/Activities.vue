@@ -17,7 +17,7 @@
         :key="index"
         :title="event.title"
         :description="event.description"
-        :image="event.img"
+        :icon="event.icon"
         :textPosition="index % 2 === 0 ? 'left' : 'right'"
         class="relative z-10"
       />
@@ -34,52 +34,52 @@ const eventDetails = [
   {
     title: $t("activities.title1"),
     description: $t("activities.description1"),
-    img: `${base}/${$t("activities.img1")}`,
+    icon: "healthicons:helicopter-24px", // Aircraft exhibit
   },
   {
     title: $t("activities.title2"),
     description: $t("activities.description2"),
-    img: `${base}/${$t("activities.img2")}`,
+    icon: "fluent:airplane-take-off-20-filled", // Air ride / flight experience
   },
   {
     title: $t("activities.title3"),
     description: $t("activities.description3"),
-    img: `${base}/${$t("activities.img3")}`,
+    icon: "i-material-symbols-paragliding-rounded", // Tandem parachute jump
   },
   {
     title: $t("activities.title4"),
     description: $t("activities.description4"),
-    img: `${base}/${$t("activities.img4")}`,
+    icon: "game-icons:jet-fighter", // Aerial demo
   },
   {
     title: $t("activities.title5"),
     description: $t("activities.description5"),
-    img: `${base}/${$t("activities.img5")}`,
+    icon: "i-material-symbols-storefront-outline-rounded", // Exhibition booths
   },
   {
     title: $t("activities.title6"),
     description: $t("activities.description6"),
-    img: `${base}/${$t("activities.img6")}`,
+    icon: "i-material-symbols-music-note-rounded", // Music & cultural shows
   },
   {
     title: $t("activities.title7"),
     description: $t("activities.description7"),
-    img: `${base}/${$t("activities.img7")}`,
+    icon: "i-material-symbols-record-voice-over-rounded", // Conferences
   },
   {
     title: $t("activities.title8"),
     description: $t("activities.description8"),
-    img: `${base}/${$t("activities.img8")}`,
+    icon: "noto:man-pilot-medium-dark-skin-tone", // Meet the pilots
   },
   {
     title: $t("activities.title9"),
     description: $t("activities.description9"),
-    img: `${base}/${$t("activities.img9")}`,
+    icon: "game-icons:delivery-drone", // Drone demonstrations
   },
   {
     title: $t("activities.title10"),
     description: $t("activities.description10"),
-    img: `${base}/${$t("activities.img10")}`,
+    icon: "icon-park-outline:circus", // Kids' play area
   },
 ];
 </script>

@@ -124,11 +124,6 @@
     "subtitle": "Réservez maintenant et économisez 30% sur votre premier saut",
     "discount": "Offre Spéciale",
     "form_title": "Profitez de votre réduction",
-    "name_placeholder": "Nom complet",
-    "email_placeholder": "Adresse email",
-    "phone_placeholder": "Numéro de téléphone",
-    "weight_placeholder": "Poids (kg)",
-    "count_placeholder": "Nombre de personnes",
     "cta": "Obtenir ma Réduction",
     "badges": {
       "verified": "Instructeurs Certifiés",
@@ -138,7 +133,20 @@
     "success_title": "Réservation Enregistrée !",
     "success_message": "Notre équipe vous contactera sous 24h pour confirmer.",
     "error_title": "Échec de Réservation",
-    "error_message": "Veuillez réessayer ou nous contacter directement."
+    "error_message": "Veuillez réessayer ou nous contacter directement.",
+    "modal": {
+      "title": "Réservation au nom de ",
+      "placeholders": {
+        "name": "Nom complet",
+        "email": "Adresse email",
+        "phone": "Numéro de téléphone",
+        "weight": "Poids (kg)",
+        "count": "Nombre de personnes",
+        "id": "CIN/Passeport"
+      },
+      "book": "Réserver",
+      "cancel": "Annuler"
+    }
   },
   "footer": {
     "slogan": "L'aéronautique à votre portée.",

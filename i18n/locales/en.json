@@ -137,7 +137,20 @@
     "success_title": "Booking Received!",
     "success_message": "Our team will contact you within 24 hours to confirm your jump.",
     "error_title": "Booking Failed",
-    "error_message": "Please try again or contact us directly."
+    "error_message": "Please try again or contact us directly.",
+    "modal": {
+      "title": "Booking for ",
+      "placeholders": {
+        "name": "Full name",
+        "email": "Email address",
+        "phone": "Phone number",
+        "weight": "Weights (kg)",
+        "count": "Number of people",
+        "id": "ID/Passport"
+      },
+      "book": "Book",
+      "cancel": "Cancel"
+    }
   },
   "footer": {
     "slogan": "Aerospace within your reach.",

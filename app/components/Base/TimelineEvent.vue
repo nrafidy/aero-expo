@@ -10,11 +10,7 @@
       <div
         class="w-20 h-20 md:w-36 md:h-36 rounded-full bg-secondary-100 flex items-center justify-center"
       >
-        <img
-          :src="image"
-          alt="Icon"
-          class="w-16 h-16 md:w-32 md:h-32 object-cover rounded-full"
-        />
+        <UIcon :name="icon" class="size-24 grayscale" />
       </div>
     </div>
     <!-- Conditional text alignment (left or right) -->
@@ -33,7 +29,7 @@
 const props = defineProps({
   title: String, // Event title
   description: String, // Event description
-  image: String, // Image URL for the event
+  icon: String, // Image URL for the event
   textPosition: {
     type: String,
     default: "left", // Default to left alignment

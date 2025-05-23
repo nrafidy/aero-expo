@@ -43,25 +43,25 @@
 
             <form @submit.prevent="handleSubmit" class="space-y-4 space-x-4">
               <UInput
-                v-model="form.name"
+                v-model="form.groupName"
                 icon="material-symbols:person-outline"
-                :placeholder="$t('booking.name_placeholder')"
+                :placeholder="$t('booking.modal.placeholders.name')"
                 required
               />
 
               <UInput
-                v-model="form.email"
+                v-model="form.groupEmail"
                 icon="material-symbols:mail-outline"
                 type="email"
-                :placeholder="$t('booking.email_placeholder')"
+                :placeholder="$t('booking.modal.placeholders.email')"
                 required
               />
 
               <UInput
-                v-model="form.phone"
+                v-model="form.groupPhone"
                 icon="material-symbols:call-outline"
                 type="tel"
-                :placeholder="$t('booking.phone_placeholder')"
+                :placeholder="$t('booking.modal.placeholders.phone')"
                 required
               />
 
@@ -69,30 +69,28 @@
                 v-model="form.count"
                 icon="heroicons:user-group"
                 type="number"
-                :placeholder="$t('booking.count_placeholder')"
+                :placeholder="$t('booking.modal.placeholders.count')"
                 required
               />
 
               <div class="pt-2">
-                <UButton
-                  type="submit"
-                  color="secondary"
-                  size="lg"
-                  class="w-full justify-center"
-                  :loading="isSubmitting"
-                >
-                  {{ $t("booking.cta") }}
-                  <template #trailing>
-                    <Icon name="material-symbols:arrow-forward" />
-                  </template>
-                </UButton>
+                <SkydiveRegister
+                  :group="form"
+                  :disabled="
+                    !(
+                      form.groupName &&
+                      form.groupEmail &&
+                      form.groupPhone &&
+                      form.count
+                    )
+                  "
+                />
               </div>
             </form>
           </div>
         </div>
       </div>
 
-      <!-- Trust Badges -->
       <div class="flex flex-wrap justify-center gap-8 mt-12">
         <div
           v-for="badge in trustBadges"
@@ -112,19 +110,10 @@ const { t } = useI18n();
 
 // Form handling
 const form = reactive({
-  name: "",
-  email: "",
-  phone: "",
-  jumpType: null,
+  groupName: "",
+  groupEmail: "",
+  groupPhone: "",
 });
-
-const isSubmitting = ref(false);
-
-const jumpTypes = [
-  { value: "tandem", label: t("booking.jump_types.tandem") },
-  { value: "solo", label: t("booking.jump_types.solo") },
-  { value: "group", label: t("booking.jump_types.group") },
-];
 
 const trustBadges = [
   {
@@ -134,32 +123,6 @@ const trustBadges = [
   { icon: "material-symbols:lock-outline", text: t("booking.badges.secure") },
   { icon: "material-symbols:star-outline", text: t("booking.badges.rated") },
 ];
-
-const handleSubmit = async () => {
-  isSubmitting.value = true;
-  try {
-    // Handle form submission
-    // await $fetch("/api/booking", {
-    //   method: "POST",
-    //   body: form,
-    // });
-    // Show success message
-    useToast().add({
-      title: t("booking.success_title"),
-      description: t("booking.success_message"),
-      icon: "material-symbols:check-circle-outline",
-    });
-  } catch (error) {
-    // Show error message
-    useToast().add({
-      title: t("booking.error_title"),
-      description: t("booking.error_message"),
-      color: "red",
-    });
-  } finally {
-    isSubmitting.value = false;
-  }
-};
 </script>
 
 <style scoped>
