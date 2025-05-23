@@ -100,22 +100,22 @@ const partner_logo = {
     title: $t("partners.institution"),
     data: [
       {
-        src: `${base}/partners/mfa.jpeg`,
+        src: `/partners/mfa.jpeg`,
         alt: "MFA",
         link: "https://foloalindahy.mg/",
       },
       {
-        src: `${base}/partners/min_tourisme.jpeg`,
+        src: `/partners/min_tourisme.jpeg`,
         alt: "Ministere du tourisme",
         link: "https://www.mta.gov.mg/",
       },
       {
-        src: `${base}/partners/min_transport.jpeg`,
+        src: `/partners/min_transport.jpeg`,
         alt: "Ministere du transport",
         link: "https://web.facebook.com/MinTransports/",
       },
       {
-        src: `${base}/partners/tafika_anabakabaka.png`,
+        src: `/partners/tafika_anabakabaka.png`,
         alt: "Tafika anabakabaka",
         link: "https://web.facebook.com/tafika.anabakabaka.mg",
       },
@@ -125,42 +125,42 @@ const partner_logo = {
     title: $t("partners.official"),
     data: [
       {
-        src: `${base}/partners/yas.svg`,
+        src: `/partners/yas.svg`,
         alt: "yas",
         link: "https://www.yas.mg",
       },
       {
-        src: `${base}/partners/ethiopian_airlines.png`,
+        src: `/partners/ethiopian_airlines.png`,
         alt: "ethiopian airlines",
         link: "https://www.ethiopianairlines.com",
       },
       {
-        src: `${base}/partners/totalenergies.webp`,
+        src: `/partners/totalenergies.webp`,
         alt: "total energies",
         link: "https://totalenergies.com/",
       },
       {
-        src: `${base}/partners/acm.png`,
+        src: `/partners/acm.png`,
         alt: "ACM",
         link: "https://www.acm.mg/",
       },
       {
-        src: `${base}/partners/amarante.png`,
+        src: `/partners/amarante.png`,
         alt: "Amarante",
         link: "https://www.amarante.com/",
       },
       {
-        src: `${base}/partners/unfpa.png`,
+        src: `/partners/unfpa.png`,
         alt: "UNFPA",
         link: "https://www.unfpa.org/",
       },
       {
-        src: `${base}/partners/bni.png`,
+        src: `/partners/bni.png`,
         alt: "BNI",
         link: "https://www.bni.mg/",
       },
       {
-        src: `${base}/partners/ny_havana.png`,
+        src: `/partners/ny_havana.png`,
         alt: "Ny Havana",
         link: "https://web.facebook.com/assurancenyhavana/",
       },
@@ -170,32 +170,32 @@ const partner_logo = {
     title: $t("partners.platinum"),
     data: [
       {
-        src: `${base}/partners/scofield_travel.jpg`,
+        src: `/partners/scofield_travel.jpg`,
         alt: "Scofield Travel",
         link: "https://web.facebook.com/ScofieldTravel",
       },
       {
-        src: `${base}/partners/wfp.jpg`,
+        src: `/partners/wfp.jpg`,
         alt: "WFP",
         link: "https://www.wfp.org/",
       },
       {
-        src: `${base}/partners/mgh.jpg`,
+        src: `/partners/mgh.jpg`,
         alt: "MGH",
         link: "https://www.mg-handling.com/",
       },
       {
-        src: `${base}/partners/cafe_musee.png`,
+        src: `/partners/cafe_musee.png`,
         alt: "Cafe du musee",
         link: "https://cafetana.mg/",
       },
       {
-        src: `${base}/partners/eneam.png`,
+        src: `/partners/eneam.png`,
         alt: "ENEAM",
         link: "https://eneam.mg/",
       },
       {
-        src: `${base}/partners/jda.png`,
+        src: `/partners/jda.png`,
         alt: "JDA",
         link: "https://jdaecole.mg/",
       },
@@ -205,38 +205,38 @@ const partner_logo = {
     title: $t("partners.partners"),
     data: [
       {
-        src: `${base}/partners/makiplast.png`,
+        src: `/partners/makiplast.png`,
         alt: "Makiplast",
         link: "https://www.makiplast.mg/",
       },
       {
-        src: `${base}/partners/manda_seafood.jpg`,
+        src: `/partners/manda_seafood.jpg`,
         alt: "Manda Seafood",
         link: "https://web.facebook.com/mandaseafood",
       },
-      { src: `${base}/partners/fila.png`, alt: "Fi.La. Group", link: "" },
+      { src: `/partners/fila.png`, alt: "Fi.La. Group", link: "" },
       {
-        src: `${base}/partners/light_box.png`,
+        src: `/partners/light_box.png`,
         alt: "Light box",
         link: "https://www.lightbox.mg/",
       },
       {
-        src: `${base}/partners/okalou.webp`,
+        src: `/partners/okalou.webp`,
         alt: "Okalou",
         link: "https://okalou.mg/",
       },
       {
-        src: `${base}/partners/skydive.jpeg`,
+        src: `/partners/skydive.jpeg`,
         alt: "Skydive",
         link: "https://www.skydive-madagascar.com/",
       },
       {
-        src: `${base}/partners/real_tv.png`,
+        src: `/partners/real_tv.png`,
         alt: "Real TV",
         link: "https://www.realtvfm.com/",
       },
       {
-        src: `${base}/partners/viva.webp`,
+        src: `/partners/viva.webp`,
         alt: "Viva",
         link: "https://web.facebook.com/Vivatv.mg",
       },
@@ -246,7 +246,7 @@ const partner_logo = {
     title: $t("partners.drink"),
     data: [
       {
-        src: `${base}/partners/star.png`,
+        src: `/partners/star.png`,
         alt: "Star",
         link: "https://www.star.mg/",
       },
