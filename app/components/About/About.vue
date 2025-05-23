@@ -19,7 +19,7 @@
         data-aos="zoom-out-left"
         class="hidden md:block md:w-1/3 bg-neutral-50 p-4"
       >
-        <img src="/defile.jpg" alt="Icon" class="h-full object-cover" />
+        <img src="/img_01.jpg" alt="Icon" class="h-full object-cover" />
       </div>
     </div>
     <div class="flex space-x-6 items-center justify-between max-w-7xl mx-auto">
@@ -27,7 +27,7 @@
         data-aos="zoom-out-right"
         class="hidden md:block md:w-1/3 bg-neutral-50 p-4"
       >
-        <img src="/defile.jpg" alt="Icon" class="h-full object-cover" />
+        <img src="/img_02.jpg" alt="Icon" class="h-full object-cover" />
       </div>
       <div data-aos="fade-left" class="space-y-6">
         <h2 class="text-3xl font-semibold mb-4">{{ $t("about.title2") }}</h2>
