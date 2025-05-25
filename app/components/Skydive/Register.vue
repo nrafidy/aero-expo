@@ -42,7 +42,7 @@
 
           <UFormGroup :label="'ID Number'" required>
             <UInput
-              v-model="member.idNumber"
+              v-model="member.cin"
               :placeholder="$t('booking.modal.placeholders.id')"
               icon="i-heroicons-identification"
             />
@@ -99,6 +99,7 @@ const props = defineProps({
       groupName: "",
       groupEmail: "",
       groupPhone: "",
+      groupCount: 1,
     }),
   },
   disabled: {
@@ -109,7 +110,6 @@ const props = defineProps({
 
 const { t: $t } = useI18n();
 const toast = useToast();
-const config = useRuntimeConfig();
 
 const isSubmitting = ref(false);
 const isOpen = ref(false);
@@ -117,15 +117,16 @@ const isOpen = ref(false);
 const members = ref([
   {
     name: "",
-    idNumber: "",
+    cin: "",
+    weight: "",
   },
 ]);
 
 const addMember = () => {
   members.value.push({
     name: "",
-    idType: "Passport",
-    idNumber: "",
+    cin: "",
+    weight: "",
   });
 };
 
@@ -139,15 +140,22 @@ const submit = async () => {
   isSubmitting.value = true;
   try {
     const bookingData = {
-      group: props.group,
+      name: props.group.groupName,
+      email: props.group.groupEmail,
+      phone: props.group.groupPhone,
+      count: props.group.groupCount,
       members: members.value,
-      timestamp: new Date().toISOString(),
     };
 
-    const res = await $fetch(`${config.public.apiBase}/api/bookings`, {
-      method: "POST",
-      body: bookingData,
-    });
+    const res = await $fetch(
+      `https://x8ki-letl-twmt.n7.xano.io/api:Bokeh3rU/group`,
+      {
+        method: "POST",
+        body: bookingData,
+      }
+    );
+
+    console.log("Booking response:", res);
 
     toast.add({
       title: "Booking saved!",
