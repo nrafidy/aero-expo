@@ -136,6 +136,7 @@
     },
     "success_title": "Booking Received!",
     "success_message": "Our team will contact you within 24 hours to confirm your jump.",
+    "count_registered": "Bookings received for ",
     "error_title": "Booking Failed",
     "error_message": "Please try again or contact us directly.",
     "modal": {

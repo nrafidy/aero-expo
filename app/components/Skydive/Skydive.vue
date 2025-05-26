@@ -41,37 +41,48 @@
               {{ $t("booking.form_title") }}
             </h3>
 
-            <form @submit.prevent="handleSubmit" class="space-y-4 space-x-4">
-              <UInput
-                v-model="form.groupName"
-                icon="material-symbols:person-outline"
-                :placeholder="$t('booking.modal.placeholders.name')"
-                required
-              />
+            <UForm class="">
+              <div class="flex flex-col space-y-2">
+                <div class="flex space-x-4">
+                  <UFormField required>
+                    <UInput
+                      v-model="form.groupName"
+                      icon="material-symbols:person-outline"
+                      :placeholder="$t('booking.modal.placeholders.name')"
+                      required
+                    />
+                  </UFormField>
 
-              <UInput
-                v-model="form.groupEmail"
-                icon="material-symbols:mail-outline"
-                type="email"
-                :placeholder="$t('booking.modal.placeholders.email')"
-                required
-              />
+                  <UFormField required>
+                    <UInput
+                      v-model="form.groupEmail"
+                      icon="material-symbols:mail-outline"
+                      type="email"
+                      :placeholder="$t('booking.modal.placeholders.email')"
+                    />
+                  </UFormField>
+                </div>
 
-              <UInput
-                v-model="form.groupPhone"
-                icon="material-symbols:call-outline"
-                type="tel"
-                :placeholder="$t('booking.modal.placeholders.phone')"
-                required
-              />
+                <div class="flex space-x-4">
+                  <UFormField required>
+                    <UInput
+                      v-model="form.groupPhone"
+                      icon="material-symbols:call-outline"
+                      type="tel"
+                      :placeholder="$t('booking.modal.placeholders.phone')"
+                    />
+                  </UFormField>
 
-              <UInput
-                v-model="form.count"
-                icon="heroicons:user-group"
-                type="number"
-                :placeholder="$t('booking.modal.placeholders.count')"
-                required
-              />
+                  <UFormField required>
+                    <UInput
+                      v-model="form.groupCount"
+                      icon="heroicons:user-group"
+                      type="number"
+                      :placeholder="$t('booking.modal.placeholders.count')"
+                    />
+                  </UFormField>
+                </div>
+              </div>
 
               <div class="pt-2">
                 <SkydiveRegister
@@ -81,12 +92,12 @@
                       form.groupName &&
                       form.groupEmail &&
                       form.groupPhone &&
-                      form.count
+                      form.groupCount
                     )
                   "
                 />
               </div>
-            </form>
+            </UForm>
           </div>
         </div>
       </div>
@@ -113,6 +124,7 @@ const form = reactive({
   groupName: "",
   groupEmail: "",
   groupPhone: "",
+  groupCount: 1,
 });
 
 const trustBadges = [

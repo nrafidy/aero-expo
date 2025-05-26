@@ -132,6 +132,7 @@
     },
     "success_title": "Réservation Enregistrée !",
     "success_message": "Notre équipe vous contactera sous 24h pour confirmer.",
+    "count_registered": "Réservations enregistrées pour ",
     "error_title": "Échec de Réservation",
     "error_message": "Veuillez réessayer ou nous contacter directement.",
     "modal": {
