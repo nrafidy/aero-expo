@@ -77,9 +77,9 @@
 const { t: $t } = useI18n();
 
 const saturday = ref([
-  { time: "06:30", activity: $t("good-to-know.schedule.saturday.activity1") },
-  { time: "08:00", activity: $t("good-to-know.schedule.saturday.activity2") },
-  { time: "08:45", activity: $t("good-to-know.schedule.saturday.activity3") },
+  // { time: "06:30", activity: $t("good-to-know.schedule.saturday.activity1") },
+  // { time: "08:00", activity: $t("good-to-know.schedule.saturday.activity2") },
+  // { time: "08:45", activity: $t("good-to-know.schedule.saturday.activity3") },
   { time: "09:00", activity: $t("good-to-know.schedule.saturday.activity4") },
   { time: "09:55", activity: $t("good-to-know.schedule.saturday.activity5") },
   { time: "10:10", activity: $t("good-to-know.schedule.saturday.activity6") },
@@ -105,7 +105,7 @@ const saturday = ref([
 ]);
 
 const sunday = ref([
-  { time: "07:00", activity: $t("good-to-know.schedule.sunday.activity1") },
+  // { time: "07:00", activity: $t("good-to-know.schedule.sunday.activity1") },
   { time: "09:00", activity: $t("good-to-know.schedule.sunday.activity2") },
   { time: "09:30", activity: $t("good-to-know.schedule.sunday.activity3") },
   { time: "10:00", activity: $t("good-to-know.schedule.sunday.activity4") },
