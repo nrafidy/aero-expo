@@ -85,28 +85,45 @@
       "time": "Time",
       "activity": "Activity",
       "saturday": {
-        "activity1": "Official opening and arrival of authorities by helicopter",
-        "activity2": "Airplane discovery flight raffle draw",
-        "activity3": "Airplane discovery flight",
-        "activity4": "Tetras taxiing initiation",
-        "activity5": "Talks at exhibition stands and entertainment",
-        "activity6": "Conference",
-        "activity7": "Helicopter discovery flight raffle draw",
-        "activity8": "Helicopter discovery flight",
-        "activity9": "Drone demonstration",
-        "activity10": "Entertainment, concert, tandem jump raffle draw"
+        "activity1": "Installation and setup",
+        "activity2": "Setup complete",
+        "activity3": "Arrival of authorities and review",
+        "activity4": "Ribbon cutting and booth opening",
+        "activity5": "Speech",
+        "activity6": "Official song",
+        "activity7": "Water salute and drone flyover",
+        "activity8": "Opening jump",
+        "activity9": "Public opening & tasting in Antonov",
+        "activity10": "Cocktail",
+        "activity11": "Draw for tandem skydive",
+        "activity12": "Gospel music",
+        "activity13": "Star animation & tandem skydive",
+        "activity14": "1st draw for air baptism & 1st conference",
+        "activity15": "Air baptism & 2nd conference",
+        "activity16": "Drone demonstration - Drone Madagascar & 3rd conference",
+        "activity17": "2nd draw for air baptism & 4th conference",
+        "activity18": "Air baptism",
+        "activity19": "YAS Animation",
+        "activity20": "DJ begins & Draw for July 1st",
+        "activity21": "Day ends and handover with participants",
+        "activity22": "DJ ends"
       },
       "sunday": {
-        "activity1": "Opening",
-        "activity2": "Tandem jump",
-        "activity3": "Conference, simulator contest",
-        "activity4": "Air parade, dynamic demonstration",
-        "activity5": "Talks at exhibition stands and entertainment",
-        "activity6": "Airplane discovery flight",
-        "activity7": "Helicopter discovery flight",
-        "activity8": "Tandem jump",
-        "activity9": "Discovery flight",
-        "activity10": "Entertainment, concert, prize raffle with partners"
+        "activity1": "Installation and setup",
+        "activity2": "Public opening",
+        "activity3": "Air baptism",
+        "activity4": "Tandem jump",
+        "activity5": "1st conference, drone demo, 1st draw for air baptism & jump",
+        "activity6": "2nd conference",
+        "activity7": "Aerial demonstration",
+        "activity8": "Air baptism, music animation, Star animation",
+        "activity9": "2nd draw for air baptism & jump, tandem jump, 3rd conference",
+        "activity10": "Air baptism, Drone Madagascar demo",
+        "activity11": "3rd draw for air baptism & jump",
+        "activity12": "Scofield Travel draw",
+        "activity13": "YAS Animation",
+        "activity14": "Air baptism",
+        "activity15": "4th conference, DJ animation, End of activities"
       }
     }
   },
@@ -116,7 +133,9 @@
     "official": "Official Sponsors",
     "platinum": "Platinum Sponsors",
     "partners": "Partners",
-    "drink": "Official Drink"
+    "drink": "Official Drink",
+    "media": "Media",
+    "lounge": "Lounge Bar"
   },
   "booking": {
     "title": "Limited-Time Price Reduction !",
@@ -147,15 +166,18 @@
         "phone": "Phone number",
         "weight": "Weights (kg)",
         "count": "Number of people",
-        "id": "ID/Passport"
+        "id": "ID/Passport",
+        "registrants": "Registrants"
       },
       "book": "Book",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "close": "Close"
     }
   },
   "footer": {
     "slogan": "Aerospace within your reach.",
     "social-media": "Our social media",
-    "copyright": "All rights reserved."
+    "copyright": "All rights reserved.",
+    "flg": "Brought to life by FLG. - Turning digital dreams into reality."
   }
 }

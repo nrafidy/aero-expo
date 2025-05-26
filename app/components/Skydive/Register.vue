@@ -24,7 +24,12 @@
     </UButton>
 
     <template #body>
-      <UForm ref="form" class="space-y-4 space-x-4" @submit.prevent="submit">
+      <UForm
+        v-if="!submitted"
+        ref="form"
+        class="space-y-4 space-x-4"
+        @submit.prevent="submit"
+      >
         <!-- :validate="validate" -->
         <div class="space-y-2">
           <div
@@ -79,12 +84,44 @@
           </div>
         </div>
       </UForm>
+      <div v-else class="mt-6 p-6 bg-green-100 rounded">
+        <h2 class="text-xl font-bold text-green-800 mb-2">
+          {{ $t("booking.success_title") }}
+        </h2>
+        <p>
+          <strong>{{ $t("booking.modal.placeholders.name") }}:</strong>
+          {{ submittedData.group.name }}
+        </p>
+        <p>
+          <strong>{{ $t("booking.modal.placeholders.email") }}:</strong>
+          {{ submittedData.group.email }}
+        </p>
+        <p>
+          <strong>{{ $t("booking.modal.placeholders.phone") }}:</strong>
+          {{ submittedData.group.phone }}
+        </p>
+        <p>
+          <strong>{{ $t("booking.modal.placeholders.registrants") }}:</strong>
+        </p>
+        <ul class="list-disc ml-5 mt-2">
+          <li v-for="(m, i) in submittedData.members" :key="i">
+            {{ m.name }} (CIN: {{ m.cin }}, Weight: {{ m.weight }})
+          </li>
+        </ul>
+      </div>
     </template>
 
     <template #footer>
       <div class="flex w-full justify-end items-center gap-2">
-        <UButton label="Cancel" color="gray" @click="isOpen = false" />
         <UButton
+          :label="
+            submitted ? $t('booking.modal.close') : $t('booking.modal.cancel')
+          "
+          color="gray"
+          @click="isOpen = false"
+        />
+        <UButton
+          v-if="!submitted"
           label="Submit Booking"
           color="primary"
           type="submit"
@@ -120,6 +157,8 @@ const toast = useToast();
 const isSubmitting = ref(false);
 const isOpen = ref(false);
 const form = useTemplateRef("form");
+const submitted = ref(false);
+const submittedData = ref({});
 
 const disableSubmit = computed(() => {
   return (
@@ -212,7 +251,10 @@ const submit = async () => {
       color: "success",
     });
 
-    isOpen.value = false;
+    submittedData.value = res;
+    submitted.value = true;
+
+    // isOpen.value = false;
   } catch (error) {
     toast.add({
       title: $t("booking.error_title"),
@@ -228,6 +270,9 @@ watch(
   () => isOpen.value,
   () => {
     if (isOpen.value) {
+      submitted.value = false;
+      submittedData.value = {};
+
       // Reset members when modal opens
       members.value = Array.from({ length: props.group.groupCount }, () => ({
         name: "",

@@ -68,7 +68,7 @@
     </div>
 
     <!-- Partners -->
-    <div data-aos="fade-up" class="max-w-7xl mx-auto">
+    <div data-aos="fade-up" class="max-w-7xl mx-auto mb-16">
       <h3 class="text-2xl font-bold text-center mb-8 uppercase">
         {{ partner_logo.partners.title }}
       </h3>
@@ -76,6 +76,69 @@
         <ULink
           v-for="(logo, index) in partner_logo.partners.data"
           :key="'partners-' + index"
+          :to="logo.link"
+          target="_blank"
+        >
+          <img
+            :src="logo.src"
+            :alt="logo.alt"
+            class="h-16 w-36 object-contain grayscale hover:grayscale-0 transition-all"
+          />
+        </ULink>
+      </div>
+    </div>
+
+    <!-- Media Partners -->
+    <div data-aos="fade-up" class="max-w-7xl mx-auto mb-16">
+      <h3 class="text-2xl font-bold text-center mb-8 uppercase">
+        {{ partner_logo.media.title }}
+      </h3>
+      <div class="flex flex-wrap gap-12 justify-center">
+        <ULink
+          v-for="(logo, index) in partner_logo.media.data"
+          :key="'media-' + index"
+          :to="logo.link"
+          target="_blank"
+        >
+          <img
+            :src="logo.src"
+            :alt="logo.alt"
+            class="h-16 w-36 object-contain grayscale hover:grayscale-0 transition-all"
+          />
+        </ULink>
+      </div>
+    </div>
+
+    <!-- Drink Partners -->
+    <div data-aos="fade-up" class="max-w-7xl mx-auto mb-16">
+      <h3 class="text-2xl font-bold text-center mb-8 uppercase">
+        {{ partner_logo.drink.title }}
+      </h3>
+      <div class="flex flex-wrap gap-12 justify-center">
+        <ULink
+          v-for="(logo, index) in partner_logo.drink.data"
+          :key="'drink-' + index"
+          :to="logo.link"
+          target="_blank"
+        >
+          <img
+            :src="logo.src"
+            :alt="logo.alt"
+            class="h-16 w-36 object-contain grayscale hover:grayscale-0 transition-all"
+          />
+        </ULink>
+      </div>
+    </div>
+
+    <!-- Lounge Partners -->
+    <div data-aos="fade-up" class="max-w-7xl mx-auto mb-16">
+      <h3 class="text-2xl font-bold text-center mb-8 uppercase">
+        {{ partner_logo.lounge.title }}
+      </h3>
+      <div class="flex flex-wrap gap-12 justify-center">
+        <ULink
+          v-for="(logo, index) in partner_logo.lounge.data"
+          :key="'lounge-' + index"
           :to="logo.link"
           target="_blank"
         >
@@ -164,6 +227,11 @@ const partner_logo = {
         alt: "Ny Havana",
         link: "https://web.facebook.com/assurancenyhavana/",
       },
+      {
+        src: `/partners/manda_seafood.jpg`,
+        alt: "Manda Seafood",
+        link: "https://web.facebook.com/mandaseafood",
+      },
     ],
   },
   platinum: {
@@ -185,11 +253,6 @@ const partner_logo = {
         link: "https://www.mg-handling.com/",
       },
       {
-        src: `/partners/cafe_musee.png`,
-        alt: "Cafe du musee",
-        link: "https://cafetana.mg/",
-      },
-      {
         src: `/partners/eneam.png`,
         alt: "ENEAM",
         link: "https://eneam.mg/",
@@ -198,6 +261,11 @@ const partner_logo = {
         src: `/partners/jda.png`,
         alt: "JDA",
         link: "https://jdaecole.mg/",
+      },
+      {
+        src: `/partners/ravinala.webp`,
+        alt: "ravinala",
+        link: "https://www.ravinala-airports.aero/en/",
       },
     ],
   },
@@ -209,12 +277,12 @@ const partner_logo = {
         alt: "Makiplast",
         link: "https://www.makiplast.mg/",
       },
+
       {
-        src: `/partners/manda_seafood.jpg`,
-        alt: "Manda Seafood",
-        link: "https://web.facebook.com/mandaseafood",
+        src: `/partners/fila.png`,
+        alt: "Fi.La. Group",
+        link: "https://studio.fila-group.mg/",
       },
-      { src: `/partners/fila.png`, alt: "Fi.La. Group", link: "" },
       {
         src: `/partners/light_box.png`,
         alt: "Light box",
@@ -231,6 +299,26 @@ const partner_logo = {
         link: "https://www.skydive-madagascar.com/",
       },
       {
+        src: `/partners/rho.jpeg`,
+        alt: "Rho Plane Kely Shop",
+        link: "https://web.facebook.com/profile.php?id=61564532325867",
+      },
+      {
+        src: `/partners/asecna.png`,
+        alt: "Asecna",
+        link: "https://www.asecna.aero/index.php/fr/",
+      },
+    ],
+  },
+  media: {
+    title: $t("partners.media"),
+    data: [
+      {
+        src: `/partners/tvm.png`,
+        alt: "TVM",
+        link: "https://web.facebook.com/tvm.malagasy.officiel",
+      },
+      {
         src: `/partners/real_tv.png`,
         alt: "Real TV",
         link: "https://www.realtvfm.com/",
@@ -240,15 +328,30 @@ const partner_logo = {
         alt: "Viva",
         link: "https://web.facebook.com/Vivatv.mg",
       },
+      {
+        src: `/partners/rdj.jpg`,
+        alt: "RDJ",
+        link: "https://rdj.mg",
+      },
     ],
   },
   drink: {
     title: $t("partners.drink"),
     data: [
       {
-        src: `/partners/star.png`,
+        src: `/partners/xxl.png`,
         alt: "Star",
-        link: "https://www.star.mg/",
+        link: "https://www.star.mg/produits/energy-drinks/xxl-energy-cest-petit-cest-puissant",
+      },
+    ],
+  },
+  lounge: {
+    title: $t("partners.lounge"),
+    data: [
+      {
+        src: `/partners/balancoire.jpg`,
+        alt: "Balancoire",
+        link: "https://web.facebook.com/LaBalancoire.mg/",
       },
     ],
   },

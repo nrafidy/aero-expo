@@ -85,28 +85,45 @@
       "time": "Heure",
       "activity": "Activité",
       "saturday": {
-        "activity1": "Ouverture officielle et Arrivée des autorités en Hélico",
-        "activity2": "Tirage au sort Baptême de l’air Avion",
-        "activity3": "Baptême de l’air Avion",
-        "activity4": "Initiation Roulage sur Tetras",
-        "activity5": "Prise de parole par stand et animation",
-        "activity6": "Conférence",
-        "activity7": "Tirage au sort Baptême de l’air Hélico",
-        "activity8": "Baptême de l’air Hélico",
-        "activity9": "Démonstration Drone",
-        "activity10": "Animation, concert, Tirage au sort pour saut tandem"
+        "activity1": "Installation et passation",
+        "activity2": "Mise en place terminée",
+        "activity3": "Arrivée des autorités et revue",
+        "activity4": "Coupure de ruban et vernissage des stands",
+        "activity5": "Discours",
+        "activity6": "Chanson officielle",
+        "activity7": "Water salute et passage drone",
+        "activity8": "Saut d'ouverture",
+        "activity9": "Ouverture au grand public & Dégustation dans l'Antonov",
+        "activity10": "Cocktail",
+        "activity11": "Tirage au sort pour saut en tandem",
+        "activity12": "Musique gospel",
+        "activity13": "Animation Star & Saut en tandem",
+        "activity14": "1er tirage au sort pour baptême de l'air & 1ère conférence",
+        "activity15": "Baptême de l'air & 2e conférence",
+        "activity16": "Démonstration drone - Drone Madagascar & 3e conférence",
+        "activity17": "2e tirage au sort pour baptême de l'air & 4e conférence",
+        "activity18": "Baptême de l'air",
+        "activity19": "Animation YAS",
+        "activity20": "Début animation DJ & Tirage pour 01/07",
+        "activity21": "Fin de journée et passation avec les participants",
+        "activity22": "Fin animation DJ"
       },
       "sunday": {
-        "activity1": "Ouverture",
-        "activity2": "Saut tandem",
-        "activity3": "Conférence, Concours simulateur",
-        "activity4": "Défilé aérien, Démonstration Dynamique",
-        "activity5": "Prise de parole par stand et animation",
-        "activity6": "Baptême de l’air, Avion",
-        "activity7": "Baptême de l’air, Hélico",
-        "activity8": "Saut tandem",
-        "activity9": "Baptême de l’air",
-        "activity10": "Animation, Concert, Tirage au sort des lots avec les partenaires"
+        "activity1": "Installation et passation",
+        "activity2": "Ouverture au grand public",
+        "activity3": "Baptême de l'air",
+        "activity4": "Saut en tandem",
+        "activity5": "1ère conférence & Démonstration drone & 1er tirage saut/baptême",
+        "activity6": "2e conférence",
+        "activity7": "Démonstration aérienne",
+        "activity8": "Baptême de l'air & Animation musicale & Animation Star",
+        "activity9": "2e tirage au sort saut/baptême & Saut en tandem & 3e conférence",
+        "activity10": "Baptême de l'air & Démonstration drone - Drone Madagascar",
+        "activity11": "3e tirage au sort saut/baptême",
+        "activity12": "Tirage au sort Scofield Travel",
+        "activity13": "Animation YAS",
+        "activity14": "Baptême de l'air",
+        "activity15": "4e conférence & Animation DJ & Fin des activités"
       }
     }
   },
@@ -116,7 +133,9 @@
     "official": "Sponsors Officiels",
     "platinum": "Sponsors Platine",
     "partners": "Partenaires",
-    "drink": "Boisson Officielle"
+    "drink": "Boisson Officielle",
+    "media": "Partenaires Media",
+    "lounge": "Lounge Bar"
   },
 
   "booking": {
@@ -143,15 +162,18 @@
         "phone": "Numéro de téléphone",
         "weight": "Poids (kg)",
         "count": "Nombre de personnes",
-        "id": "CIN/Passeport"
+        "id": "CIN/Passeport",
+        "registrants": "Inscrits"
       },
       "book": "Réserver",
-      "cancel": "Annuler"
+      "cancel": "Annuler",
+      "close": "Fermer"
     }
   },
   "footer": {
     "slogan": "L'aéronautique à votre portée.",
     "social-media": "Nos réseaux sociaux",
-    "copyright": "Tous droits reservés."
+    "copyright": "Tous droits reservés.",
+    "flg": "Conçu et réalisé par FLG. - Transformer Les Visions Digitales En Réalité."
   }
 }
